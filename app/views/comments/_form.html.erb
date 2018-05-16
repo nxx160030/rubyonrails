@@ -1,0 +1,14 @@
+
+<%= form_with(model: [ @article, @article.comments.build ], local: true) do |form| %>
+    <p>
+      <%= form.label :commenter, class:"col-sm-2", rows:1  %><br>
+      <%= form.text_field :commenter, class:"form-control",rows:1 %>
+    </p>
+    <p>
+      <%= form.label :body, class:"col-sm-2", rows:1   %><br>
+      <%= form.text_area :body, class:"form-control",rows:5  %>
+    </p>
+    <p>
+      <%= form.submit class: 'btn btn-primary' %>
+    </p>
+<% end %>
