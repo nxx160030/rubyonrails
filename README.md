@@ -1,24 +1,16 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+ Ruby version: 2.4.2
 
-* Ruby version
+ Database: sqlite
 
-* System dependencies
+ How to run the test suite:
+    1) system test: bin/rails test:system 
+    2) integration test: bin/rails test:integration
 
-* Configuration
 
-* Database creation
+ Deployment instructions
+    1) bin/rails server
+    2) http://localhost:3000
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
